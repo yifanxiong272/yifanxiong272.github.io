@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a student at the University of Illinois Urbana-Champaign. This website collects my academic updates, publications, talks, and teaching materials.
+I am Yifan Xiong (熊一凡), an incoming Ph.D. student in Computer Science at the University of Illinois Urbana-Champaign, advised by [Prof. Yiling Lou](https://yilinglou.github.io/), starting in Fall 2026. I received my B.Eng. degree from Nanjing University, where I was fortunate to work with [Prof. Lei Bu](https://cs.nju.edu.cn/bulei/) and [Prof. Minxue Pan](https://minxuepan.github.io/), and to have the opportunity to work remotely with [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/) in summer 2024. 
 
-My current academic interests and project details will be updated here.
+My research interests lie broadly in Software Engineering, including Software Testing, Program Analysis, and Formal Methods. I am particularly excited about how these foundations interact with modern LLMs and advanced Software Engineering Agents.
 
 ## News
 
-- 2026.05: Welcome to my homepage.
+- 2025.06: HAFuzz is accepted by ICSE'26!
 
 ## Selected Publications ([Full List](/publications/))
 
@@ -27,12 +27,9 @@ My current academic interests and project details will be updated here.
 
 ## Education
 
-- University of Illinois Urbana-Champaign.
+- Ph.D.Student in Computer Science, University of Illinois Urbana-Champaign. *Sep. 2026 -*
 
-## Talks
+- Research Assistant in [SEG](https://seg.nju.edu.cn/index.action), Nanjing University. *Aug. 2025 - Dec. 2025*
 
-Coming soon.
+- B.Eng. in Software Engineering, Naning University. *Sep. 2021 - July 2025*
 
-## Teaching
-
-Coming soon.

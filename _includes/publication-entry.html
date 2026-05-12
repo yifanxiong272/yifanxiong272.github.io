@@ -1,0 +1,22 @@
+{% include base_path %}
+{% assign pub = include.post | default: post %}
+
+<article class="publication-entry">
+  <div class="publication-entry__title">
+    {% if pub.venue_short %}<span class="publication-entry__tag">[{{ pub.venue_short }}]</span>{% endif %}
+    <a href="{{ pub.paperurl | default: pub.url }}">{{ pub.title }}</a>
+  </div>
+  {% if pub.authors %}
+    <div class="publication-entry__authors">{{ pub.authors }}</div>
+  {% endif %}
+  <div class="publication-entry__venue">
+    {{ pub.venue }}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}
+  </div>
+  <div class="publication-entry__links">
+    {% if pub.paperurl and pub.paperurl != pub.arxivurl and pub.paperurl != pub.doiurl %}<a href="{{ pub.paperurl }}">Paper</a>{% endif %}
+    {% if pub.arxivurl %}<a href="{{ pub.arxivurl }}">arXiv</a>{% endif %}
+    {% if pub.doiurl %}<a href="{{ pub.doiurl }}">DOI</a>{% endif %}
+    {% if pub.codeurl %}<a href="{{ pub.codeurl }}">Code</a>{% endif %}
+    <a href="{{ pub.url | prepend: base_path }}">Details</a>
+  </div>
+</article>

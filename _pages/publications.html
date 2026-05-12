@@ -7,6 +7,15 @@ author_profile: true
 
 {% assign publications = site.publications | sort: "date" | reverse %}
 
+<div class="publication-list">
+{% assign current_year = "" %}
 {% for post in publications %}
-  {% include archive-single.html %}
+  {% assign year = post.date | date: "%Y" %}
+  {% if year != current_year %}
+    <h2 class="publication-year">{{ year }}</h2>
+    {% assign current_year = year %}
+  {% endif %}
+  {% include publication-entry.html post=post %}
 {% endfor %}
+</div>
+<p class="publication-note"><sup>*</sup> Equal contribution.</p>

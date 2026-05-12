@@ -84,6 +84,71 @@
   }
 }
 
+.publication-list {
+  margin-top: 1.25em;
+}
+
+.publication-year {
+  margin: 1.5em 0 0.75em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.publication-entry {
+  margin-bottom: 1.25em;
+  line-height: 1.45;
+}
+
+.publication-list--compact .publication-entry {
+  margin-bottom: 1em;
+}
+
+.publication-entry__title {
+  font-weight: 600;
+}
+
+.publication-entry__title a {
+  text-decoration: none;
+}
+
+.publication-entry__title a:hover {
+  text-decoration: underline;
+}
+
+.publication-entry__tag {
+  color: var(--global-text-color-light);
+  font-weight: 600;
+  margin-right: 0.35em;
+}
+
+.publication-entry__authors {
+  margin-top: 0.15em;
+}
+
+.publication-entry__venue {
+  color: var(--global-text-color-light);
+  margin-top: 0.1em;
+}
+
+.publication-entry__links {
+  margin-top: 0.2em;
+  font-size: $type-size-6;
+}
+
+.publication-entry__links a {
+  margin-right: 0.75em;
+  text-decoration: none;
+}
+
+.publication-entry__links a:hover {
+  text-decoration: underline;
+}
+
+.publication-note {
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+}
+
 
 /*
    List view

@@ -5,4 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-Coming soon.
+{% assign publications = site.publications | sort: "date" | reverse %}
+
+{% for post in publications %}
+  {% include archive-single.html %}
+{% endfor %}

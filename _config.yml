@@ -23,12 +23,12 @@ repository               : "yifanxiong272/yifanxiong272.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yifan Xiong"
   pronouns         :  # example: "she/her"  
-  bio              : "PhD Student at UIUC"
+  bio              : "PhD Student"
   location         : "Urbana-Champaign, IL"
-  employer         : "University of Illinois Urbana-Champaign"
+  employer         : "UIUC"
   uri              : # URL
   email            : "yifanx14@illinois.edu" 
 

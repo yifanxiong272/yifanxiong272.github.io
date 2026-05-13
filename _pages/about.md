@@ -28,7 +28,7 @@ My research interests lie broadly in Software Engineering, including Software Te
 
 ## Education
 
-- Ph.D.Student in Computer Science, University of Illinois Urbana-Champaign. *Sep. 2026 -*
+- Ph.D. Student in Computer Science, University of Illinois Urbana-Champaign. *Sep. 2026 -*
 
 - Research Assistant in [SEG](https://seg.nju.edu.cn/index.action), Nanjing University. *Aug. 2025 - Dec. 2025*
 

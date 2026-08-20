@@ -47,6 +47,10 @@
   font-size: $type-size-4;
 }
 
+.home-news li {
+  text-wrap: pretty;
+}
+
 .page__content {
 
   h2 {

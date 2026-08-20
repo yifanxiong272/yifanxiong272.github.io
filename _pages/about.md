@@ -7,14 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am Yifan Xiong, an incoming Ph.D. student in Computer Science at [UIUC](https://illinois.edu/), advised by [Prof. Yiling Lou](https://yilinglou.github.io/), starting in Fall 2026. I received my B.Eng. degree from [Nanjing University](https://www.nju.edu.cn/en/), where I was fortunate to work with [Prof. Lei Bu](https://cs.nju.edu.cn/bulei/) and [Prof. Minxue Pan](https://minxuepan.github.io/), and to have the opportunity to work remotely with [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/) in Summer 2024.
+I am Yifan Xiong, a Ph.D. student in Computer Science at [UIUC](https://illinois.edu/), advised by [Prof. Yiling Lou](https://yilinglou.github.io/). I received my B.Eng. degree from [Nanjing University](https://www.nju.edu.cn/en/), where I was fortunate to work with [Prof. Lei Bu](https://cs.nju.edu.cn/bulei/) and [Prof. Minxue Pan](https://minxuepan.github.io/), and to have the opportunity to work with [Prof. Lingming Zhang](https://lingming.cs.illinois.edu/) in Summer 2024.
 
 My research interests lie broadly in Software Engineering, including Software Testing, Program Analysis, and Formal Methods. I am particularly excited about how these foundations interact with modern LLMs and advanced Software Engineering Agents.
 
 ## News
-- 2025.11: HAFuzz received the Distinguished Paper Award at the 18th National College Students' Innovation Annual Conference.
+- 2025.11: HAFuzz won a Distinguished Paper Award at the 18th National College Students' Innovation Annual Conference.
 
 - 2025.06: HAFuzz was accepted to ICSE 2026.
+{: .home-news}
 
 ## Selected Publications ([Full List](/publications/))
 

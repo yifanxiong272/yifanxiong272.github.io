@@ -12,7 +12,7 @@ I am Yifan Xiong, a Ph.D. student in Computer Science at [UIUC](https://illinois
 My research interests lie broadly in Software Engineering, including Software Testing, Program Analysis, and Formal Methods. I am particularly excited about how these foundations interact with modern LLMs and advanced Software Engineering Agents.
 
 ## News
-- 2025.11: HAFuzz won a Distinguished Paper Award at the 18th National College Students' Innovation Annual Conference.
+- 2025.11: HAFuzz received an Outstanding Paper Award at the 18th National College Students Innovation Annual Conference.
 
 - 2025.06: HAFuzz was accepted to ICSE 2026.
 {: .home-news}

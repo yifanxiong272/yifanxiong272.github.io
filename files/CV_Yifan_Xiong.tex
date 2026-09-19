@@ -1,0 +1,217 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.74in,top=0.62in,bottom=0.68in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault]{sourcesanspro}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{accent}{HTML}{163A5F}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rulegray}{HTML}{B7C0C9}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdftitle={Curriculum Vitae - Yifan Xiong},
+  pdfauthor={Yifan Xiong},
+  pdfsubject={Academic curriculum vitae}
+}
+\urlstyle{same}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\color{muted}\scriptsize Yifan Xiong \enspace | \enspace Curriculum Vitae \enspace | \enspace Page \thepage\ of \pageref*{LastPage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{2em}
+\raggedright
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0pt}{}
+  [\vspace{0.12em}{\color{rulegray}\titlerule[0.4pt]}]
+\titlespacing*{\section}{0pt}{0.95em}{0.52em}
+
+\newcommand{\cventry}[4]{%
+  \needspace{3.2\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}X@{\hspace{0.35em}}>{\raggedleft\arraybackslash}p{1.70in}@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}%
+}
+
+\newcommand{\projectentry}[3]{%
+  \needspace{5.2\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}X@{\hspace{0.35em}}>{\raggedleft\arraybackslash}p{1.70in}@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \multicolumn{2}{@{}l@{}}{\textit{#3}}
+  \end{tabularx}%
+}
+
+\newenvironment{cvitems}{%
+  \begin{itemize}[
+    leftmargin=1.2em,
+    label=\raisebox{0.18ex}{\tiny$\bullet$},
+    itemsep=2.2pt,
+    parsep=0pt,
+    topsep=3pt,
+    partopsep=0pt
+  ]
+}{\end{itemize}\vspace{0.3em}}
+
+\newcommand{\skillrow}[2]{\textbf{#1:} #2\par}
+% Use a raised math-font dagger for a clear, sword-like equal-contribution mark.
+\newcommand{\equalcontrib}{\raisebox{0.6ex}{\scriptsize\ensuremath{\dagger}}}
+
+\begin{document}
+
+\fontsize{10.5}{12.4}\selectfont
+
+\begin{center}
+  {\fontsize{23}{25}\selectfont\bfseries Yifan Xiong}\par
+  \vspace{4pt}
+  \small
+  Urbana-Champaign, Illinois \enspace | \enspace
+  \href{mailto:yifanx14@illinois.edu}{yifanx14@illinois.edu} \enspace | \enspace
+  \href{https://yifanxiong272.github.io/}{yifanxiong272.github.io}
+  \\
+  \href{https://github.com/yifanxiong272}{GitHub} \enspace | \enspace
+  \href{https://scholar.google.com/citations?hl=en\&user=xyP48YoAAAAJ}{Google Scholar}
+\end{center}
+
+\vspace{-0.2em}
+
+\section{Education}
+
+\cventry
+  {University of Illinois Urbana-Champaign}
+  {Sep. 2026 - Present}
+  {Ph.D. Student in Computer Science; Advisor: \href{https://yilinglou.github.io/}{Prof. Yiling Lou}}
+  {Urbana-Champaign, IL}
+
+\vspace{0.35em}
+
+\cventry
+  {Nanjing University}
+  {Sep. 2021 - Jul. 2025}
+  {B.Eng. in Software Engineering; GPA: 4.54/5.00}
+  {Nanjing, China}
+
+\section{Research Interests}
+
+Software engineering, formal methods, and programming languages, with a focus on software testing, formal and runtime verification, program analysis, and their intersections with AI and agentic systems.
+
+\section{Publications}
+
+\begin{enumerate}[leftmargin=1.45em,label={\arabic*.},itemsep=6pt,topsep=1pt,parsep=0pt]
+  \item Jinglin Dai\equalcontrib, \textbf{Yifan Xiong}\equalcontrib, Lezhi Ma, Shangqing Liu, and Lei Bu. ``Temporal Specification Oriented Fuzzing for Trigger-Action-Programming Smart Home Integrations.'' \textit{Proceedings of the 48th International Conference on Software Engineering (ICSE 2026), Research Track}. \href{https://doi.org/10.1145/3744916.3764543}{DOI} | \href{https://sites.google.com/view/hafuzz}{Project}
+
+  \item Ruixin Qin\equalcontrib, \textbf{Yifan Xiong}\equalcontrib, Yifei Lu, and Minxue Pan. ``Demystifying and Assessing Code Understandability in Java Decompilation.'' \textit{arXiv preprint arXiv:2409.20343}, 2024. \href{https://arxiv.org/abs/2409.20343}{arXiv}
+
+  \item Chun Li, \textbf{Yifan Xiong}, Zhong Li, Wenhua Yang, and Minxue Pan. ``Mobile Test Script Generation from Natural Language Descriptions.'' \textit{2023 IEEE 23rd International Conference on Software Quality, Reliability, and Security (QRS)}, pp. 348--359, 2023. \href{https://doi.org/10.1109/QRS60937.2023.00042}{DOI}
+\end{enumerate}
+
+{\footnotesize\equalcontrib\ Equal contribution.}
+
+\section{Academic Positions}
+
+\cventry
+  {University of Illinois Urbana-Champaign}
+  {Fall 2026}
+  {Teaching Assistant, \href{https://siebelschool.illinois.edu/academics/courses/cs527}{CS 527: Software Testing and Analysis}}
+  {Urbana-Champaign, IL}
+
+\vspace{0.35em}
+
+\cventry
+  {Software Engineering Group, Nanjing University}
+  {Aug. 2025 - Dec. 2025}
+  {Research Assistant}
+  {Nanjing, China}
+
+\section{Research Experience}
+
+\projectentry
+  {HAFuzz: Temporal Specification Oriented Fuzzing for Smart Home Integrations}
+  {Nov. 2023 - Oct. 2025}
+  {Research Assistant; Advisor: Prof. Lei Bu, Nanjing University}
+\begin{cvitems}
+  \item Led the full implementation, including modeling IFTTT-style IoT systems, developing a specialized runtime-verification fuzzer, designing and refining seed-selection algorithms, and improving overall efficiency.
+  \item Organized and conducted experiments comparing our tool with model-checking-based approaches on a comprehensive, carefully curated dataset, demonstrating improvements in efficiency and accuracy.
+\end{cvitems}
+
+\projectentry
+  {Extending NNSmith with LLM-Generated API Constraints}
+  {Jul. 2024 - Nov. 2024}
+  {Research Assistant; Advisor: Prof. Lingming Zhang, University of Illinois Urbana-Champaign}
+\begin{cvitems}
+  \item Extended NNSmith's API-constraint workflow with LLM-generated candidates, expanding the set of supported constraints and the diversity of generated deep-learning models.
+  \item Developed augmentation strategies to improve the accuracy of generated API constraints.
+  \item Designed validation, repair, and coverage-measurement components; used the extended workflow to identify real-world bugs in deep-learning libraries.
+\end{cvitems}
+
+\newpage
+
+\projectentry
+  {Assessing Code Understandability in Java Decompilation}
+  {May 2023 - Jun. 2024}
+  {Research Assistant; Advisor: Prof. Minxue Pan, Nanjing University}
+\begin{cvitems}
+  \item Built a SonarQube-based analysis workflow and evaluated source and decompiled Java code across diverse projects and mainstream decompilers, including Jadx, FernFlower, and CFR.
+  \item Trained an n-gram language model, conducted manual assessments using established Java conventions, and identified recurring decompilation patterns that reduce readability.
+  \item Helped design Cognitive Complexity$^{D}$, a decompilation-aware metric that more accurately captures understandability differences between source and decompiled code than conventional metrics.
+\end{cvitems}
+
+\projectentry
+  {Reinforced-Attention Policy for LibFewShot}
+  {Sep. 2023 - Jan. 2024}
+  {Research Project}
+\begin{cvitems}
+  \item Implemented a reinforced-attention framework combining few-shot learning with Markov decision processes and adapted the model to limited hardware resources.
+  \item Evaluated multiple backbone networks and meta-learners in LibFewShot, successfully reproducing the reported improvements across varied configurations.
+\end{cvitems}
+
+\projectentry
+  {GenDroid: Mobile Test Script Generation from Natural Language}
+  {Sep. 2022 - Mar. 2023}
+  {Research Assistant; Advisor: Prof. Minxue Pan, Nanjing University}
+\begin{cvitems}
+  \item Combined SentenceBERT features with a random forest classifier to match natural-language test intents to Android UI widgets; contributed path planning over DroidBot-generated UI transfer graphs.
+  \item Identified omitted actions and application-state transitions to make multi-step test execution more robust and reduce cascading failures.
+  \item Helped design and run experiments demonstrating improved intent coverage and widget-matching accuracy across diverse Android applications.
+\end{cvitems}
+
+\section{Honors and Awards}
+
+\begin{tabularx}{\textwidth}{@{}X >{\raggedleft\arraybackslash}p{0.9in}@{}}
+  Outstanding Paper Award, 18th National College Students Innovation Annual Conference, China & 2025 \\
+  First-Class People's Scholarship, Nanjing University & 2023 - 2025
+\end{tabularx}
+
+\section{Technical Skills}
+
+\skillrow{Programming}{Python, Java, C/C++, Bash, SMV, LaTeX}
+\skillrow{Frameworks and Tools}{PyTorch, Docker, Z3, Semgrep, SonarQube, NuSMV/nuXmv, UPPAAL}
+\skillrow{Methods}{Fuzzing, runtime verification, model checking, static analysis, and machine learning}
+
+\end{document}

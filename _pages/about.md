@@ -34,3 +34,7 @@ My research interests lie broadly in Software Engineering, including Software Te
 - Research Assistant in [SEG](https://seg.nju.edu.cn/index.action), Nanjing University. *Aug. 2025 - Dec. 2025*
 
 - B.Eng. in Software Engineering, Naning University. *Sep. 2021 - July 2025*
+
+## Teaching
+
+- Teaching Assistant, [CS 527: Software Testing and Analysis](https://siebelschool.illinois.edu/academics/courses/cs527), University of Illinois Urbana-Champaign. *Fall 2026*
